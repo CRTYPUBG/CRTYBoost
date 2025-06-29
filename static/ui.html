@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>CRTY FPS BOOST TOOL</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 0;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 40px 0;
+      text-shadow: 0 0 10px black;
+      font-size: 2.8rem;
+    }
+    button {
+      background: transparent;
+      border: 2px solid lime;
+      border-radius: 30px;
+      padding: 15px 40px;
+      margin: 10px;
+      color: lime;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background-color: lime;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://raw.githubusercontent.com/CRTYPUBG/mylicensesystem/refs/heads/main/C_loop.png" alt="Logo" />
+  <h1>CRTY FPS BOOST TOOL</h1>
+  <button onclick="runBoost()">FPS BOOST</button>
+  <button onclick="runReset()">GERI AL</button>
+<button id="copyAndOpenBtn" 
+  style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 0.9rem; border: 2px solid lime; border-radius: 25px; background: transparent; color: lime; cursor: pointer; transition: all 0.3s ease;">
+  <img src="https://cdn.discordapp.com/emojis/1389001484301111306.webp?size=96&animated=true" alt="Emoji" width="16" height="16" style="display: block;">
+  https://gameloophub.com/
+</button>
+
+  <script>
+    function runBoost() {
+      fetch('http://127.0.0.1:5000/boost')
+        .then(res => res.text())
+        .then(alert)
+        .catch(() => alert('Sunucuya ba?lanılamadı!'));
+    }
+    function runReset() {
+      fetch('http://127.0.0.1:5000/reset')
+        .then(res => res.text())
+        .then(alert)
+        .catch(() => alert('Sunucuya ba?lanılamadı!'));
+    }
+  </script>
+</body>
+</html>
