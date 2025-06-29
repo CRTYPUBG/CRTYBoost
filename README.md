@@ -1,36 +1,36 @@
 # 🚀 CRTY Boost Tool (FPS + AntiLag)
 
-🔐 Güvenli, lisans korumalı ve VMProtect ile korunan özel FPS arttırıcı araç.
+🔐 Secure, licensed and VMProtect protected special FPS booster tool.
 
-![Logo](https://cdn.discordapp.com/emojis/1389001484301111306.webp?size=96)  https://gameloophub.com/
+![Logo](https://cdn.discordapp.com/emojis/1389001484301111306.webp?size=96) https://gameloophub.com/
 
-## 💡 Özellikler
+## 💡 Features
 
-- ✅ GameLoop FPS Drop Engelleyici
-- ✅ Ani Donma Önleyici Scriptler
-- ✅ Tek Tuşla Boost / Reset Sistemi
-- ✅ VMProtect ile korunan lisanslı .EXE
-- ✅ GUI (HTML + Python Qt) Arayüz
+- ✅ GameLoop FPS Drop Blocker
+- ✅ Sudden Freeze Prevention Scripts
+- ✅ One-Click Boost / Reset System
+- ✅ Licensed .EXE protected by VMProtect
+- ✅ GUI (HTML + Python Qt) Interface
 
-## 🔒 Güvenlik
+## 🔒 Security
 
-Bu uygulama, ters mühendislik ve izinsiz kullanımın önüne geçmek için `VMProtect Demo` ile korunmuştur.
+This application is protected by `VMProtect Demo` to prevent reverse engineering and unauthorized use.
 
-### 🔐 Korumalar
+### 🔐 Protections
 
 - Anti-Debug
 - Anti-VirtualMachine
-- Kod Virtualization (Mutation)
-- Import Gizleme (Hide Imports)
-- Zorunlu Splash Ekranı (Demo özelliği)
+- Code Virtualization (Mutation)
+- Hide Imports
+- Mandatory Splash Screen (Demo feature)
 
-> ⚠️ Bu uygulamanın izinsiz çoğaltılması veya dağıtılması yasaktır.
+> ⚠️ Unauthorized reproduction or distribution of this application is prohibited.
 
 ---
 
-## 📥 Kurulum
+## 📥 Installation
 
-1. Python 3.10+ yüklü olmalı
-2. Terminale şunu gir:
+1. Python 3.10+ must be installed
+2. Enter the following in the terminal:
 ```bash
 pip install flask pyqt5
