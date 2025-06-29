@@ -3,6 +3,7 @@
 🔐 Secure, licensed and VMProtect protected special FPS booster tool.
 
 ![Logo](https://cdn.discordapp.com/emojis/1389001484301111306.webp?size=96) https://gameloophub.com/
+![CRTY Boost Tool Preview](https://raw.githubusercontent.com/CRTYPUBG/CRTYBoost/refs/heads/main/Screenshot_1.png)
 
 ## 💡 Features
 
